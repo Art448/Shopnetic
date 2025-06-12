@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: your-app-name   # Change this to your app name (e.g., shop-ease)
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
+    plan: free
